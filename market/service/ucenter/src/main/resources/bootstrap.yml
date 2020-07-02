@@ -1,0 +1,10 @@
+spring:
+  profiles:
+  application:
+    name: service-ucenter # 服务名
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        namespace: b3a3a560-7609-4344-9eb6-a37cdcb47ec9

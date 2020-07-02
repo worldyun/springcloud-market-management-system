@@ -1,0 +1,29 @@
+#server:
+#  port: 9001
+#
+#spring:
+#  profiles:
+#    active: dev
+#  application:
+#    name: infrastructure-apigateway
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: worldyun.xyz:8848
+#    gateway:
+#      discovery:
+#        locator:
+#          enabled: true
+#      routes:
+#      - id: service-user
+#        uri: lb://service-user
+#        predicates:
+#        - Path=/api/user/**
+#      - id: service-ucenter
+#        uri: lb://service-ucenter
+#        predicates:
+#          - Path=/api/ucenter/**
+#      - id: service-business
+#        uri: lb://service-business
+#        predicates:
+#          - Path=/api/business/**
