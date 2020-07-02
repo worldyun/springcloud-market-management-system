@@ -100,13 +100,6 @@
                 <version>${jodatime.version}</version>
             </dependency>
 
-            <!--文件上传-->
-            <dependency>
-                <groupId>commons-fileupload</groupId>
-                <artifactId>commons-fileupload</artifactId>
-                <version>${commons-fileupload.version}</version>
-            </dependency>
-
             <!-- JWT -->
             <dependency>
                 <groupId>io.jsonwebtoken</groupId>
